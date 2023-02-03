@@ -26,12 +26,19 @@
         </div>
         <form action="" class="input-container">
           <label for="email">Email</label>
-          <input type="email" name="email" id="email" />
-          <label for="password">Password</label>
-          <input type="password" name="password" id="password" />
+          <input type="email" name="email" id="email" class="email-input" />
+          <label for="password" class="pass-lbl">Password</label>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            class="pass-input"
+          />
           <div class="checkbox-container">
-            <input type="checkbox" name="checkbox" id="checkbox" />
-            <label for="checkbox">Remember me</label>
+            <div>
+              <input type="checkbox" name="checkbox" id="checkbox" />
+              <label for="checkbox">Remember me</label>
+            </div>
             <p>Forgot Password?</p>
           </div>
           <button class="signin-btn">Sign in</button>
